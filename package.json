@@ -1,20 +1,19 @@
 {
-  "name": "skinny-bones-jekyll",
-  "version": "1.0.0",
-  "private": true,
-  "description": "A Jekyll starter site",
-  "author": "Michael Rose <michael@mademistakes.com>",
-  "homepage": "http://mademistakes.com/",
-  "license": "The MIT License (MIT)",
+  "name": "jamornsriwasansak.github.io",
+  "version": "0.0.0",
+  "description": "Just my website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.github.com/jamornsriwasansak/jamornsriwasansak.github.io"
+  },
+  "author": "Jamorn Sriwasansak",
+  "license": "ISC",
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-contrib-jshint": "~0.8.0",
-    "grunt-contrib-uglify": "~0.3.2",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-imagemin": "~0.5.0",
-    "grunt-svgmin": "~0.3.1",
-    "grunt-imgcompress": "~0.1.1",
-    "grunt-newer": "^0.7.0",
-    "grunt-surround": "^0.1.0"
+    "browser-sync": "^2.24.6",
+    "gulp": "^3.9.1"
   }
 }

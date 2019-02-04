@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>redirecting to jamorn.me</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <meta http-equiv="refresh" content="1;url=http://jamornsriwasansak.github.io" />
+  </head>
+
+  <!-- redirect for html -->
+  <body>
+    <!-- just in case users still using netscape -->
+    <div class="fullscreen">
+      <div class="block1">
+        <div class="block2">
+          <a href="http://jamornsriwasansak.github.io">redirecting to http://jamorn.me</a>
+          <p>Jamorn's humble little website.</p>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+  <style media="screen">
+    .fullscreen {
+      background-color: #CCC;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: 0;
+      box-sizing: border-box;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .block1 {
+      position: fixed;
+      width: 100%;
+      top: 40%;
+    }
+
+    .block2 {
+      width: 350px;
+      margin: auto;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    a {
+      font-size: 22px;
+      color: #555;
+    }
+
+    p {
+      font-size: 15px;
+    }
+  </style>
+
+  <script type="text/javascript">
+    // redirect javascript - just in case
+    setInterval(function() {
+      var div = document.querySelector("#counter");
+      var count = div.textContent * 1 - 1;
+      div.textContent = count;
+      if (count <= 0) {
+          location.href="http://jamornsriwasansak.github.io";
+      }
+    }, 1000);
+  </script>
+</html>
